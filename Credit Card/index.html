@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="responsive.css">
+    
+    <title>Credit Card</title>
+</head>
+
+<body>
+    <form >
+    <div class="container">
+        <div class="form">
+            <div class="card-container">
+                <h1>VISA</h1>
+                <input type="text" name="cardno" id="cardno" maxlength="16" placeholder="XXXX XXXX XXXX XXXX">
+            </div>
+            <div>
+                <div class="date">
+                <input type="text" name="expirymonth" class="expirydate" maxlength="2" placeholder="MM">
+                <input type="text" name="expiryyear" class="expirydate" maxlength="2" placeholder="YY">
+                </div>
+                <div class="cvvfield">
+                    <input type="text" name="cvv" id="cvv" maxlength="3" placeholder="CVV">
+                    <div id="first">
+                        <img src="https://images.vexels.com/media/users/3/152864/isolated/preview/2e095de08301a57890aad6898ad8ba4c-yellow-circle-question-mark-icon-by-vexels.png"
+                            alt="">
+                        <div id="second">
+                            <img src="https://norgenbiotek.com/sites/default/files/commerce/visa-master.png" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div>
+                <input type="text" name="name" id="name" placeholder="CARD HOLDER NAME">
+            </div>
+        </div>
+    </div>
+    <div class="foot">
+        <button type = "submit" class="submit">Submit</button>
+        <button type = "reset" class="submit">Reset</button>
+    </div>
+</form>
+</body>
+
+</html>

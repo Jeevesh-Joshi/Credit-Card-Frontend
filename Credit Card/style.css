@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+}
+body{
+    background-image: url(https://img3.goodfon.com/wallpaper/nbig/f/20/crystallize-modiac-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 500px;
+    height: 250px;
+    background-image: linear-gradient(to right, rgba(116, 209, 62, 0.6), rgba(32, 148, 32, 0.6), rgba(1, 19, 1, 0.6));
+    border-radius: 1rem;
+    box-shadow: 0px 5px 10px black;
+}
+.form{
+    padding: 2rem;
+}
+.form div h1{
+    text-align: right;
+    margin: 0rem 2rem;
+    font-size: 2.5rem;
+    clear: both;
+    float: right;
+    width:4rem;
+    font-style: italic;
+    color: white;
+}
+
+input{
+    font-size: 2rem;
+    background: rgba(71, 117, 34, 0.459);
+    border-radius: 0.3rem;
+    padding: 5px;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+::placeholder{
+    font-size: 1.5rem;
+    position: relative;
+    top: -5px;
+    color: rgba(255, 255, 255, 0.616);
+    text-align: center;
+}
+#cardno{
+    float: left;
+    width: 18rem;
+    height: 3rem;
+    margin: 0.5rem;
+}
+.date{
+    clear: both;
+    float: left;
+    display: flex;
+}
+.expirydate{
+    width: 4rem;
+    height: 3rem;
+    margin: 0.5rem;
+}
+.cvvfield{
+    display: flex;
+    float: right;
+    width: 5rem;
+    height: 3rem;
+    margin: 0.5rem 1.5rem;
+}
+#cvv{
+    width: 4rem;
+}
+#name{
+    clear: both;
+    float: left;
+    width: 18rem;
+    height: 3rem;
+    margin: 0.5rem;
+}
+#first{
+    width:fit-content;
+}
+#first>img{
+    clear: both;
+    margin-top: 8px;
+    margin-left: 0.5rem;
+    height: 2rem;
+    width: 2rem;
+}
+#first:hover{
+    cursor: pointer;    
+}
+#first:hover div{
+    display: block;
+}
+#first div{
+    display: none;
+    position: relative;
+    left: -4.5rem;
+    width: 8rem;
+    height: 6rem;
+}
+#second img{
+    z-index: 10;
+    width: 8rem;
+    height: 6rem;
+}
+.submit{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    width: fit-content;
+    height: 3rem;
+    font-size: 2rem;
+    width: 8rem;
+    margin: 2rem auto;
+    background-color: rgba(6, 110, 28, 0.658);
+    color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px rgb(0, 0, 0);
+    
+}
+
+.foot{
+    display: flex;
+}
